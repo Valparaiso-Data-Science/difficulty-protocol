@@ -7,6 +7,7 @@
 import pandas as pd
 import nltk
 from nltk.tokenize import word_tokenize
+from dataframe_name import get_df_name
 def process_responses(stops,sub,qs,dfs):
   answers = {} #first dictionary organization
   for q in qs:
