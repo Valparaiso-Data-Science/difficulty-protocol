@@ -19,7 +19,8 @@ from rename_columns import rename_col
 from response_processing import process_responses
 from tfidf_analysis import tfidf
 from tokenizer import tokenize
-from word_processing import sub_words
+from word_processing import words
+from dataframe_name import get_df_name
 
 # load faculty and TA dataset
 profta = pd.read_csv("Faculty_TA Difficulty Protocol (Raw).csv", index_col = 0)
